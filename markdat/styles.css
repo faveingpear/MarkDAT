@@ -1,0 +1,56 @@
+/*
+ * Want to change this website's styes? Learn more about CSS:
+ * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS
+ */
+
+body {
+  padding: 0 20px;
+  background: #fdf6e3;
+}
+
+#text{
+  background-color: #fdf6e3;
+  color: black;
+  padding-top:10px;
+  padding-left:10px;
+  width: 50%;
+  height: 700px;
+  float:left;
+  resize:none;
+}
+
+#title{
+  color:black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:50px;
+}
+
+.preview {
+  padding-top:5px;
+  padding-left:10px;
+  background-color:#fdf6e3;
+  float:right;
+  width: 48%;
+  height: auto;
+}
+
+.menu button{
+  background-color:#268bd2;
+  border:none;
+  color:#fcfdfe;
+  width:10%;
+  height:auto%;
+}
+
+.menu a{
+  background-color:#268bd2;
+  border:none;
+  color:#fcfdfe;
+  width:10%;
+  height:auto%;
+  text-align: center;
+}
+
+.menu #right{
+  float: right;
+}

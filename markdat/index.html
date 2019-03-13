@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+
+<!--
+  Want to customize this website? Learn more about how HTML works:
+  https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MarkDAT://</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <!-- Start of menu -->
+  <div class="menu">
+    <h1 id="title">MarkDAT://</h1>
+    <table>
+      <tr>
+        <button type="button" onclick="view();">View</button>
+        <button type="button" onclick="export();">Erase Text</button>
+
+        <a id = "right" href="pages/about.html">About</a>
+      </tr>
+    </table>
+  </div>
+  <!-- End -->
+
+  <body>
+    <br>
+    <textarea id = "text" rows="4" colums = "30" ># Start Creating!</textarea>
+    <div class="preview">
+      <p id="box"></p>
+    </div>
+  </body>
+
+  <script src="mmd.min.js"></script>
+  <script>
+
+    var t=setInterval(view(),1);
+
+    view();
+
+    function view(){
+          var text = document.getElementById("text").value, body;
+
+          body = mmd(text);
+
+          document.getElementById("box").innerHTML = body;
+    }
+
+  </script>
+</html>
