@@ -8,4 +8,4 @@ MarkDAT is really small because I made it with the intention of hosting it on th
 
 ### Credit
 
-All the MARKDOWN to HTML conversion is done by mmb[!https://github.com/p01/mmd.js] a javascript file that is super small and fast.
+All the MARKDOWN to HTML conversion is done by [mmb](https://github.com/p01/mmd.js) a javascript file that is super small and fast.
